@@ -1,0 +1,7 @@
+{
+  "build/umd/react-redux-api-middleware.production.min.js": {
+    "bundled": 9037,
+    "minified": 2567,
+    "gzipped": 1114
+  }
+}

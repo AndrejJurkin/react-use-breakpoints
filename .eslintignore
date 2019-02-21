@@ -1,0 +1,8 @@
+# Third party
+**/node_modules
+__tests__/**
+testenv.js
+coverage/**
+registerServiceWorker.js
+*.test.js
+*.spec.js
