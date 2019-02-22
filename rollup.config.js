@@ -7,7 +7,7 @@ import { uglify } from 'rollup-plugin-uglify';
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 
 const input = './src/lib/index.js';
-const name = 'use-breakpoints';
+const name = 'react-use-breakpoints';
 const globals = {
   react: 'React',
   'react-dom': 'ReactDOM',
