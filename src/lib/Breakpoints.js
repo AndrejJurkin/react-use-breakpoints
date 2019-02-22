@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const BreakpointContext = React.createContext();
+export const BreakpointContext = React.createContext();
 
 export const defaultBreakpoints = {
   xs: 0,

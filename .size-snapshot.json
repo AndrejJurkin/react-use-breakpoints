@@ -10,8 +10,8 @@
     "gzipped": 813
   },
   "build/umd/react-use-breakpoints.production.min.js": {
-    "bundled": 3944,
-    "minified": 1609,
-    "gzipped": 833
+    "bundled": 3812,
+    "minified": 1595,
+    "gzipped": 832
   }
 }
