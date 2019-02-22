@@ -11,7 +11,7 @@ export const defaultBreakpoints = {
 };
 
 const Breakpoints = ({ breakpoints = defaultBreakpoints, children }) => (
-  <BreakpointContext.Provider breakpoints={breakpoints}>
+  <BreakpointContext.Provider value={breakpoints}>
     {children}
   </BreakpointContext.Provider>
 );
