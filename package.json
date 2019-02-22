@@ -1,9 +1,24 @@
 {
   "name": "react-use-breakpoints",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
-  "repository": {},
-  "license": "LGPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrejJurkin/react-use-breakpoints",
+  },
+  "author": "Andrej Jurkin <andrej.jurkin@gmail.com> (https://github.com/AndrejJurkin)",
+  "license": "MIT",
+  "description": "A small collection of react hooks that will help you with your responsive designs.",
+  "keywords": [
+    "hooks",
+    "hook",
+    "react-hook",
+    "react-use-breakpoints",
+    "responsive",
+    "breakpoints",
+    "breakpoint",
+    "react"
+  ],
   "main": "build/index.js",
   "module": "build/es/index.js",
   "files": [
@@ -25,8 +40,8 @@
     "precommit": "npm run precommit-format && npm run precommit-lint"
   },
   "peerDependencies": {
-    "react": ">=16.5.2",
-    "react-dom": ">=16.5.2"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
