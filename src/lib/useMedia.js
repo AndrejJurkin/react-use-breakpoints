@@ -5,7 +5,9 @@ const useMedia = query => {
 
   useEffect(() => {
     let performingCleanup = false;
+
     const mediaQueryList = window.matchMedia(query);
+    setMatches(mediaQueryList.matches);
 
     const handleChange = () => {
       if (performingCleanup) {
@@ -15,13 +17,12 @@ const useMedia = query => {
     };
 
     mediaQueryList.addListener(handleChange);
-    mediaQueryList(mediaQueryList.matches);
 
     return () => {
       performingCleanup = true;
       mediaQueryList.removeListener(handleChange);
     };
-  }, []);
+  }, [query]);
 
   return matches;
 };
