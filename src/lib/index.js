@@ -4,6 +4,7 @@ import Breakpoints, {
   BreakpointContext,
 } from './Breakpoints';
 import useWindowSize, { getWindowSize } from './useWindowSize';
+import useMedia from './useMedia';
 
 export {
   useBreakpoints,
@@ -12,4 +13,5 @@ export {
   defaultBreakpoints,
   useWindowSize,
   getWindowSize,
+  useMedia,
 };
