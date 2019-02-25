@@ -74,3 +74,10 @@ import { useWindowSize } from "react-use-breakpoints";
 
 const { innerWidth, outerWidth } = useWindowSize();
 ```
+#### Use Media hook
+This hook matches a media query based on the screen size.
+```
+import { useMedia } from "react-use-breakpoints";
+...
+const matches = useMedia('(min-width: 500px)');
+```
