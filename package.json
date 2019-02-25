@@ -1,12 +1,13 @@
 {
   "name": "react-use-breakpoints",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrejJurkin/react-use-breakpoints"
   },
   "author": "Andrej Jurkin <andrej.jurkin@gmail.com> (https://github.com/AndrejJurkin)",
+  "homepage": "https://github.com/AndrejJurkin/react-use-breakpoints#readme",
   "license": "MIT",
   "description": "A small collection of react hooks that will help you with your responsive designs.",
   "keywords": [
